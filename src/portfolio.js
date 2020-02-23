@@ -2,35 +2,47 @@
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hi all 👋 I'm Saad",
+  title: "Hi all 👋 I'm Alex Boicu",
   subTitle:
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
+    "A passionate Full Stack Software Developer 🚀 with the Design in mind, having a broad experience of building Complex Web and Mobile Applications",
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/boicualexandru",
+  linkedin: "https://www.linkedin.com/in/alex-boicu/",
+  gmail: "alex.c.boicu@gmail.com",
+  facebook: "https://www.facebook.com/boicu.alex/"
 };
 
 const skillsSection = {
   /* Your Skills Section  */
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
+  title: "How can I help",
+  subTitle: "CREATE AMAZING USER EXPERINCE PUTTING IN PRACTICE MY KNOWLEDGE",
   skills: [
     "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-    "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
-    "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    "⚡ Create scalable Backend Functionalities using breaking new technologies",
+    "⚡ Continuously adapt the Design to your needs",
+    "⚡ Cost-Effective Deployment of your Website or Mobile App on services like AWS / Firebase / Azure / Google Cloud"
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon */
   /* https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -48,16 +60,12 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "wordpress",
+      fontAwesomeClassname: "fab fa-wordpress"
     },
     {
       skillName: "npm",
@@ -72,14 +80,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
@@ -90,8 +90,8 @@ const openSource = {
   /* Your Open Source Section to View Your Github Pinned Projects */
   /* To know how to get github key look at readme.md */
 
-  githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "Your Github Username"
+  githubConvertedToken: "MDU5YzQyZTM1ZTE3YzJkZTRkNjM4Y2Y0NGU0MjVlZmZiNjBjMzczNw==",
+  githubUserName: "boicualexandru"
 };
 
 const bigProjects = {
@@ -199,8 +199,8 @@ const podcastSection = {
 const contactInfo = {
   title: "Contact Me ☎️",
   subtitle: "Discuss a project or just want to say hi my inbox is open for all",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+40 755 218 619",
+  email_address: "alex.c.boicu@gmail.com"
 };
 
 export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo };

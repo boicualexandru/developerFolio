@@ -13,10 +13,22 @@
   margin-bottom: 20px;
 }
 
-.software-skill-inline > i {
+.software-skill-inline > i, .software-skill-inline > span {
   color: #868e96;
 }
 
-.software-skill-inline > i:hover {
+.software-skill-inline > i:hover, .software-skill-inline > span:hover {
   color: #645beb;
+}
+
+.software-skill-inline.dotnet {
+  cursor: default;
+}
+
+.software-skill-inline.dotnet > span {
+  font-weight: 600;
+  font-size: 32px;
+  vertical-align: middle;
+  display: inline-block;
+  padding-bottom: 14px;
 }
