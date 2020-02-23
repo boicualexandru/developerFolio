@@ -203,4 +203,19 @@ const contactInfo = {
   email_address: "alex.c.boicu@gmail.com"
 };
 
-export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo };
+const portofolioInfo = {
+  title: "My Latest Work",
+  projects: [
+    {
+      title: "Food Fusion",
+      logo: "",
+      description: "",
+      images: [
+        "",
+        ""
+      ]
+    }
+  ]
+}
+
+export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, portofolioInfo };
