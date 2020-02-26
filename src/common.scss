@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  position: relative;
+}
+.col-4 {
+  display: inline-block;
+  flex: 4 4 auto;
+  max-width: 33%;
+  box-sizing: border-box;
+}
+.col-8 {
+  display: inline-block;
+  flex: 8 8 auto;
+  max-width: 66%;
+  box-sizing: border-box;
+}
+
+.mt-l {
+  margin-top: 64px;
+}
+.mt-xl {
+  margin-top: 96px;
+}
+.mt-m {
+  margin-top: 32px;
+}
+.px-s {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.pl-l {
+  padding-left: 64px;
+}
+.pr-l {
+  padding-right: 64px;
+}
