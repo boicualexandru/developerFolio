@@ -31,19 +31,6 @@
   background-position: right bottom;
 }
 
-@include media-breakpoint-down(sm) {
-  .button-greeting-div{
-    justify-content: space-around;
-  }
-  .greeting-text {
-    font-size: 1.7rem;
-  }
-  .greeting-text-p {
-    font-size: 1rem;
-    line-height: normal;
-    text-align: center;
-  }
-}
 
 @include media-breakpoint-down(md) {
   .hero-image {
@@ -51,10 +38,15 @@
     height: 81.04vw;
   }
   .greeting-text {
-    font-size: 2.8rem;
     text-align: center;
   }
   .greeting-text-p {
-    font-size: 1.1rem;
+    text-align: center;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .button-greeting-div{
+    justify-content: space-around;
   }
 }
