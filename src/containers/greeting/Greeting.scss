@@ -1,0 +1,58 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+
+.button-greeting-div{
+  display: flex;
+  margin-top: 20px;
+}
+
+.greeting-text {
+  font-size: 70px;
+  line-height: 1.1;
+}
+
+.greeting-text-p {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.hero-image {
+  min-height: calc(100vh - 104px);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+@include media-breakpoint-down(sm) {
+  .button-greeting-div{
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 30px;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .hero-image {
+    min-height: 0;
+    padding-top: 81.04%;
+  }
+  .greeting-text {
+    font-size: 50px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+}
