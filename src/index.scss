@@ -1,7 +1,8 @@
 @import './common.scss';
 
-
-@import "node_modules/bootstrap/scss/bootstrap";
+$primary: purple;
+$danger: red;
+@import "./custom-bootstrap";
 
 @font-face {
   font-family: 'Agustina Regular';

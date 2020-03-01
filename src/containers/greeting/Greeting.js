@@ -9,10 +9,12 @@ export default function Greeting() {
     <div id="greeting">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg pl-lg-5 d-flex flex-column justify-content-center">
+          <div className="col-lg-5 pl-lg-5 d-flex flex-column justify-content-center">
             <div className="p-2">
-              <h1 className="greeting-text">{greeting.title}</h1>
-              <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
+              <h1 className="greeting-text">I'm <span className="text-primary">Alex Boicu</span></h1>
+              <p className="greeting-text-p subTitle">
+                A passionate Full Stack <span className="text-primary font-weight-bold">Software Developer</span> 🚀 with the Design in mind, having a broad experience of building Complex Web and Mobile Applications
+              </p>
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
@@ -20,7 +22,7 @@ export default function Greeting() {
               </div>
             </div>
           </div>
-          <div className="col-lg hero-image" style={{backgroundImage: 'url(' + require("../../assests/images/heroImage.png") + ')'}}></div>
+          <div className="col-lg-7 hero-image" style={{backgroundImage: 'url(' + require("../../assests/images/heroImage.png") + ')'}}></div>
         </div>
       </div>
     </div>
