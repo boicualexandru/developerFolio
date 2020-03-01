@@ -13,13 +13,13 @@
 }
 
 .greeting-text {
-  font-size: 70px;
+  font-size: 4rem;
   line-height: 1.1;
 }
 
 .greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 1.7rem;
+  line-height: 1.4;
 }
 
 .hero-image {
@@ -34,10 +34,10 @@
     justify-content: space-around;
   }
   .greeting-text {
-    font-size: 30px;
+    font-size: 1.7rem;
   }
   .greeting-text-p {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: normal;
     text-align: center;
   }
@@ -46,13 +46,13 @@
 @include media-breakpoint-down(md) {
   .hero-image {
     min-height: 0;
-    padding-top: 81.04%;
+    height: 81.04vw;
   }
   .greeting-text {
-    font-size: 50px;
+    font-size: 2.8rem;
     text-align: center;
   }
   .greeting-text-p {
-    font-size: 20px;
+    font-size: 1.1rem;
   }
 }

@@ -1,7 +1,4 @@
-@import './common.scss';
-
-$primary: purple;
-$danger: red;
+// @import './common.scss';
 @import "./custom-bootstrap";
 
 @font-face {
@@ -24,7 +21,6 @@ body {
 }
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

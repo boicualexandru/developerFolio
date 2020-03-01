@@ -1,4 +1,9 @@
 
 $primary: #55198b;
 $danger: red;
+
+$font-size-base: 1.2rem; 
+$font-family-sans-serif: "Montserrat", sans-serif;
+// $line-height-base: 1.2px;
+
 @import "node_modules/bootstrap/scss/bootstrap";
