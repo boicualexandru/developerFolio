@@ -65,16 +65,8 @@ export default function PortofolioSection() {
                   <p>Design / UX</p>
                 </li>
                 <li>
-                  <span className="fa fa-cog"></span>
-                  <p>Backend</p>
-                </li>
-                <li>
                   <span className="fa fa-rocket"></span>
                   <p>User Interface</p>
-                </li>
-                <li>
-                  <span className="fa fa-fire"></span>
-                  <p>Deployment</p>
                 </li>
               </ul>
             </div>
