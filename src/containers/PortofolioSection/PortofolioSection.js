@@ -9,7 +9,7 @@ export default function PortofolioSection() {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 5,
+      items: 3,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -24,7 +24,13 @@ export default function PortofolioSection() {
       items: 1,
     },
   };
-
+  const responsiveFull = {
+    superLargeDesktop: {
+      breakpoint: { max: 46499, min: 0 },
+      items: 1,
+    }
+  };
+  
   return (
     <div className="main" id="portofolio">
       <div className="portofolio-wrapper">
@@ -116,13 +122,11 @@ export default function PortofolioSection() {
 
 
               <div className="mt-4 portofolio-item-image-wrapper">
-                <Carousel containerClass="carousel-container" responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={4000}>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_locations.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_rooms.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_room_modal.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_menus.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_menu_modal.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_included_services.png")}></img></div>
+                <Carousel containerClass="carousel-container" responsive={responsiveFull} infinite={true} autoPlay={true} autoPlaySpeed={4000}>
+                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/browser_mockup_restaurants.png")}></img></div>
+                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/MacBookPro_iphone_restaurant_SMALL.png")}></img></div>
+                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/browser_phone_login.png")}></img></div>
+                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/browser_phone_hotel.png")}></img></div>
                 </Carousel>
               </div>
             </div>
