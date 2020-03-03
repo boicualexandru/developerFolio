@@ -85,105 +85,9 @@ export default function PortofolioSection() {
     <div className="main" id="portofolio">
       <div className="portofolio-wrapper">
         <h3 className="portofolio-title">{portofolioInfo.title}</h3>
+        
         <div class="container-fluid mt-5 portofolio-item">
           <div className="row">
-            <div class="col-lg-4">
-              <div className="mt-4" style={{ display: 'flex', minWidth: '500px', alignItems: 'center' }}>
-                <div >
-                  <div className="portofolio-item-logo-wrapper">
-                    <img alt="Moons Logo" className="portofolio-item-logo" src={require("../../assests/images/moons_icon.png")}></img>
-                  </div>
-                </div>
-                <div className="title-wrapper">
-                  <h3 className="title">Moons</h3>
-                  <p className="sub-title">Wedding Planning and Providers</p>
-                </div>
-              </div>
-
-              <div className='mt-4 portofolio-item-content'>
-                <div className="portofolio-item-description">
-                  <p>Moons is an app that is meant to help you plan and manage your wedding.</p>
-                  <p>The app has two main modules: <strong>The Wedding Planner</strong> and <strong>The Providers Market</strong>. 
-                    First one is aiming to help you plan all the wedding details (budget, guests, appointments). 
-                    The second one is facilitating the engagement between you and the services providers like restaurants, music bands etc.</p>
-                  <p>This app act as a helping hand for the ones struggling to plan their wedding to the very detail. 
-                    At the same time, from the provider's perspecive, this app is an excellent marketplace where anyone can show off their services and availability.
-                  </p>
-                  <SoftwareSkill skills={moonsSkills} />
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-8 pl-lg-5">
-              <div className='contribution-bar mt-4'>
-                <div className="color-bar"></div>
-                <ul>
-                  <li>
-                    <span className="fa fa-lightbulb"></span>
-                    <p>Business Idea</p>
-                  </li>
-                  <li>
-                    <span className="fa fa-palette"></span>
-                    <p>Design / UX</p>
-                  </li>
-                  <li>
-                    <span className="fa fa-rocket"></span>
-                    <p>User Interface</p>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="mt-4 portofolio-item-image-wrapper">
-                <Carousel containerClass="carousel-container" responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={4000}>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_locations.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_rooms.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_room_modal.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_menus.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_menu_modal.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_included_services.png")}></img></div>
-                </Carousel>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid mt-5 portofolio-item">
-          <div className="row">
-            <div class="col-lg-8 pr-lg-5">
-              <div className='contribution-bar mt-4'>
-                <div className="color-bar"></div>
-                <ul>
-                  <li>
-                    <span className="fa fa-lightbulb"></span>
-                    <p>Business Idea</p>
-                  </li>
-                  <li>
-                    <span className="fa fa-palette"></span>
-                    <p>Design / UX</p>
-                  </li>
-                  <li>
-                    <span className="fa fa-cog"></span>
-                    <p>Backend</p>
-                  </li>
-                  <li>
-                    <span className="fa fa-rocket"></span>
-                    <p>User Interface</p>
-                  </li>
-                  <li>
-                    <span className="fa fa-fire"></span>
-                    <p>Deployment</p>
-                  </li>
-                </ul>
-              </div>
-
-
-              <div className="mt-4 portofolio-item-image-wrapper">
-                <Carousel containerClass="carousel-container" responsive={responsiveFull} infinite={true} autoPlay={true} autoPlaySpeed={4000}>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/browser_mockup_restaurants.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/MacBookPro_iphone_restaurant_SMALL.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/browser_phone_login.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/browser_phone_hotel.png")}></img></div>
-                </Carousel>
-              </div>
-            </div>
             <div class="col-lg-4">
               <div className="mt-4" style={{ display: 'flex', minWidth: '500px', alignItems: 'center' }}>
                 <div >
@@ -210,9 +114,106 @@ export default function PortofolioSection() {
                     From the restaurant's point of view, you can watch and manage all the reservations. As a restaurant manager, you are also free to add employees, that can also manage the restaurant for you.
                   </p>
                   <p>
-                    
+                    A side functionality of the app is the Hotel Booking platform.
                   </p>
                   <SoftwareSkill skills={foodfusionSkills} />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 pl-lg-5">
+              <div className='contribution-bar mt-4'>
+                <div className="color-bar"></div>
+                <ul>
+                  <li>
+                    <span className="fa fa-lightbulb"></span>
+                    <p>Business Idea</p>
+                  </li>
+                  <li>
+                    <span className="fa fa-palette"></span>
+                    <p>Design / UX</p>
+                  </li>
+                  <li>
+                    <span className="fa fa-cog"></span>
+                    <p>Backend</p>
+                  </li>
+                  <li>
+                    <span className="fa fa-rocket"></span>
+                    <p>User Interface</p>
+                  </li>
+                  <li>
+                    <span className="fa fa-fire"></span>
+                    <p>Deployment</p>
+                  </li>
+                </ul>
+              </div>
+              <div className="mt-4 portofolio-item-image-wrapper">
+                <Carousel containerClass="carousel-container" responsive={responsiveFull} infinite={true} autoPlay={true} autoPlaySpeed={4000}>
+                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/browser_mockup_restaurants.png")}></img></div>
+                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/MacBookPro_iphone_restaurant_SMALL.png")}></img></div>
+                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/browser_phone_login.png")}></img></div>
+                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/browser_phone_hotel.png")}></img></div>
+                </Carousel>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid mt-5 portofolio-item">
+          <div className="row">
+            
+          <div class="col-lg-8 pr-lg-5">
+              <div className='contribution-bar mt-4'>
+                <div className="color-bar"></div>
+                <ul>
+                  <li>
+                    <span className="fa fa-lightbulb"></span>
+                    <p>Business Idea</p>
+                  </li>
+                  <li>
+                    <span className="fa fa-palette"></span>
+                    <p>Design / UX</p>
+                  </li>
+                  <li>
+                    <span className="fa fa-rocket"></span>
+                    <p>User Interface</p>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="mt-4 portofolio-item-image-wrapper">
+                <Carousel containerClass="carousel-container" responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={4000}>
+                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_locations.png")}></img></div>
+                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_rooms.png")}></img></div>
+                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_room_modal.png")}></img></div>
+                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_menus.png")}></img></div>
+                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_menu_modal.png")}></img></div>
+                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_included_services.png")}></img></div>
+                </Carousel>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div className="mt-4" style={{ display: 'flex', minWidth: '500px', alignItems: 'center' }}>
+                <div >
+                  <div className="portofolio-item-logo-wrapper">
+                    <img alt="Moons Logo" className="portofolio-item-logo" src={require("../../assests/images/moons_icon.png")}></img>
+                  </div>
+                </div>
+                <div className="title-wrapper">
+                  <h3 className="title">Moons</h3>
+                  <p className="sub-title">Wedding Planning and Providers</p>
+                </div>
+              </div>
+
+              <div className='mt-4 portofolio-item-content'>
+                <div className="portofolio-item-description">
+                  <p>Moons is an app that is meant to help you plan and manage your wedding.</p>
+                  <p>The app has two main modules: <strong>The Wedding Planner</strong> and <strong>The Providers Market</strong>. 
+                    First one is aiming to help you plan all the wedding details (budget, guests, appointments). 
+                    The second one is facilitating the engagement between you and the services providers like restaurants, music bands etc.</p>
+                  <p>
+                    This app act as a helping hand for the ones struggling to plan their wedding to the very detail. 
+                    At the same time, from the provider's perspecive, this app is an excellent marketplace where anyone can show off their services and availability.
+                  </p>
+                  <SoftwareSkill skills={moonsSkills} />
                 </div>
               </div>
             </div>
