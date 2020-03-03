@@ -1,7 +1,7 @@
 .dev-icons {
   padding-left: 0;
   list-style: none;
-  font-size: 3rem;
+  font-size: 2.7rem;
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
@@ -21,11 +21,11 @@
   color: #645beb;
 }
 
-.software-skill-inline.dotnet {
+.software-skill-inline.text-skill {
   cursor: default;
 }
 
-.software-skill-inline.dotnet > span {
+.software-skill-inline.text-skill > span {
   font-weight: 600;
   font-size: 32px;
   vertical-align: middle;

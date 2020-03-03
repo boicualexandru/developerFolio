@@ -8,12 +8,12 @@ export default function Skills() {
     <div className="main" id="skills">
       <div className="skills-main-div">
         <div className="skills-image-div">
-          <img alt="Alex Working" src={require("../../assests/images/developerActivity.svg")}></img>
+          <img alt="Alex Working" src={require("../../assests/images/profileBlob.png")}></img>
         </div>
         <div className="skills-text-div">
           <h1 className="skills-heading">{skillsSection.title} </h1>
           <p className="subTitle skills-text-subtitle">{skillsSection.subTitle}</p>
-          <SoftwareSkill />
+          <SoftwareSkill skills={skillsSection.softwareSkills} />
           <div>
             {skillsSection.skills.map(skills => {
               return <p className="subTitle skills-text">{skills}</p>;

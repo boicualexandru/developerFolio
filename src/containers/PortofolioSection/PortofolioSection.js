@@ -1,10 +1,60 @@
 import React from "react";
 import "./PortofolioSection.scss";
 import { portofolioInfo } from "../../portfolio";
+import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 export default function PortofolioSection() {
+
+  const moonsSkills = [
+    {
+      skillName: "figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
+    {
+      skillName: "react",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: 'react native',
+      displayName: 'React Native',
+      type: 'text'
+    }
+  ];
+
+  const foodfusionSkills = [
+    {
+      skillName: 'dotnet',
+      displayName: '.NET',
+      type: 'text'
+    },
+    {
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "sass",
+      fontAwesomeClassname: "fab fa-sass"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
+    }
+  ];
+
 
   const responsive = {
     superLargeDesktop: {
@@ -52,10 +102,14 @@ export default function PortofolioSection() {
 
               <div className='mt-4 portofolio-item-content'>
                 <div className="portofolio-item-description">
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                  <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
-                  <p><strong>Tools Used: </strong> .NET Core, Angular, AWS, Docker, Jenkins</p>
+                  <p>Moons is an app that is meant to help you plan and manage your wedding.</p>
+                  <p>The app has two main modules: <strong>The Wedding Planner</strong> and <strong>The Providers Market</strong>. 
+                    First one is aiming to help you plan all the wedding details (budget, guests, appointments). 
+                    The second one is facilitating the engagement between you and the services providers like restaurants, music bands etc.</p>
+                  <p>This app act as a helping hand for the ones struggling to plan their wedding to the very detail. 
+                    At the same time, from the provider's perspecive, this app is an excellent marketplace where anyone can show off their services and availability.
+                  </p>
+                  <SoftwareSkill skills={moonsSkills} />
                 </div>
               </div>
             </div>
@@ -145,10 +199,20 @@ export default function PortofolioSection() {
 
               <div className='mt-4 portofolio-item-content'>
                 <div className="portofolio-item-description">
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                  <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
-                  <p><strong>Tools Used: </strong> .NET Core, Angular, AWS, Docker, Jenkins</p>
+                  <p>
+                    FoodFusion is a web platform meant to ease the restaurants reservations.
+                  </p>
+                  <p>
+                    From the user's perspective anyone can add a reservation to a specific restaurant, chose a prefered table, and even add a preorder. 
+                    At the end, the user can even pay using the app.
+                  </p>
+                  <p>
+                    From the restaurant's point of view, you can watch and manage all the reservations. As a restaurant manager, you are also free to add employees, that can also manage the restaurant for you.
+                  </p>
+                  <p>
+                    
+                  </p>
+                  <SoftwareSkill skills={foodfusionSkills} />
                 </div>
               </div>
             </div>

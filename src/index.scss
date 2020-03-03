@@ -1,12 +1,7 @@
 // @import './common.scss';
 @import "./custom-bootstrap";
 
-@font-face {
-  font-family: 'Agustina Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Agustina Regular'), url('./assests/fonts/Agustina.woff') format('woff');
-}
+@import url('https://fonts.googleapis.com/css?family=Assistant&display=swap');
 @font-face {
   font-family: 'Montserrat';
   src: local('Montserrat'), url('./assests/fonts/Montserrat-Regular.ttf') format('woff');

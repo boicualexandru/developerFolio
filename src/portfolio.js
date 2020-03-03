@@ -2,10 +2,10 @@
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hi all 👋 I'm Alex Boicu",
-  subTitle:
-    "A passionate Full Stack Software Developer 🚀 with the Design in mind, having a broad experience of building Complex Web and Mobile Applications",
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  // title: "Hi all 👋 I'm Alex Boicu",
+  // subTitle:
+  //   "A passionate Full Stack Software Developer 🚀 with the Design in mind, having a broad experience of building Complex Web and Mobile Applications",
+  resumeLink: "https://drive.google.com/file/d/1h8aG93yXi2nmJHKp2gWg1_NIUcZR1gT8/view?usp=sharing"
 };
 
 const socialMediaLinks = {
@@ -18,19 +18,24 @@ const socialMediaLinks = {
 
 const skillsSection = {
   /* Your Skills Section  */
-  title: "How can I help",
-  subTitle: "CREATE AMAZING USER EXPERINCE PUTTING IN PRACTICE MY KNOWLEDGE",
+  title: "How will I help",
+  subTitle: "I CREATE AMAZING EXPERINCES FOR YOU AND YOUR CLIENTS",
   skills: [
-    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-    "⚡ Create scalable Backend Functionalities using breaking new technologies",
-    "⚡ Continuously adapt the Design to your needs",
-    "⚡ Cost-Effective Deployment of your Website or Mobile App on services like AWS / Firebase / Azure / Google Cloud"
+    "⚡ Developing highly interactive Front end / User Interfaces for your web and mobile applications",
+    "⚡ Creating scalable Backend Functionalities using breaking new technologies",
+    "⚡ Continuously adapting the Design to your needs",
+    "⚡ Cost-Effective Deploying your App on Cloud Services like AWS / Firebase / Azure / Google Cloud"
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon */
   /* https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "dotnet",
+      displayName: ".NET",
+      type: "text"
+    },
     {
       skillName: "angular",
       fontAwesomeClassname: "fab fa-angular"
@@ -48,10 +53,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
     },
@@ -66,10 +67,6 @@ const skillsSection = {
     {
       skillName: "wordpress",
       fontAwesomeClassname: "fab fa-wordpress"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
