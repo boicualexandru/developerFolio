@@ -1,5 +1,6 @@
-.portofolio-wrapper {
-}
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
 
 .portofolio-title {
   font-size: 56px;
@@ -26,19 +27,12 @@
 }
 
 .portofolio-item-logo-wrapper{
-  display: inline-block;
-  padding: 8px;
   border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 18px -8px;
 }
 img.portofolio-item-logo{
   height: 52px;
   width: auto;
-}
-.portofolio-item .title-wrapper{
-  flex: 1;
-  display: inline-block;
-  padding-left: 16px;
 }
 .portofolio-item .title {
   display: inline-block;
@@ -118,46 +112,6 @@ img.portofolio-item-logo{
     }
   }
 }
-// .contribution-bar {
-//   display: flex;
-//   width: 100%;
-//   padding: 0;
-//   margin: 0;
-//   list-style-type: none;
-// }
-// .contribution-bar > li {
-//   display: block;
-//   flex: 1 1 0%;
-//   text-align: center;
-//   position: relative;
-//   overflow: hidden;
-// }
-// .contribution-bar > li > div {
-//   background-color: #55198b;
-//   height: 16px;
-//   position: absolute;
-//   top: 16px;
-//   width: 100%;
-// }
-// .contribution-bar > li:first-child > div {
-//   left: 50%;
-// }
-// .contribution-bar > li:last-child > div {
-//   right: 50%;
-// }
-// .contribution-bar > li > span {
-//   display: inline-block;
-//   height: 50px;
-//   width: 50px;
-//   line-height: 50px;
-//   border-radius: 50px;
-//   font-size: 24px;
-//   position: relative;
-//   background-color: #55198b;
-// }
-// .contribution-bar > li > p {
-//   color: #868e96;
-// }
 
 .carousel-container {
   .react-multiple-carousel__arrow {
@@ -165,5 +119,13 @@ img.portofolio-item-logo{
   }
   &:hover .react-multiple-carousel__arrow {
     opacity: 1;
+  }
+}
+
+
+@include media-breakpoint-down(sm) {
+  .portofolio-item .title {
+    font-size: 30px;
+    margin-bottom: 8px;
   }
 }

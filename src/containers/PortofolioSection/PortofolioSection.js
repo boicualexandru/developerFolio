@@ -80,34 +80,34 @@ export default function PortofolioSection() {
       items: 1,
     }
   };
-  
+
   return (
     <div className="main" id="portofolio">
       <div className="portofolio-wrapper">
         <h3 className="portofolio-title">{portofolioInfo.title}</h3>
-        
+
         <div class="container-fluid mt-5 portofolio-item">
           <div className="row">
-            <div class="col-lg-4">
-              <div className="mt-4" style={{ display: 'flex', minWidth: '500px', alignItems: 'center' }}>
-                <div >
-                  <div className="portofolio-item-logo-wrapper">
+            <div class="col-lg-4 order-1">              
+              <div className="row mt-4">
+                <div className="col-12 text-center col-lg-auto text-lg-left mb-3">
+                  <div className="d-inline-block p-2 portofolio-item-logo-wrapper">
                     <img alt="Food Fusion Logo" className="portofolio-item-logo" src="https://raw.githubusercontent.com/boicualexandru/Food-Fusion-FE/38b1d9c45807287772a95f9781c11d538136ec01/src/assets/img/FoodFusionLogoSmall.png"></img>
                   </div>
                 </div>
-                <div className="title-wrapper">
+                <div className="col-12 text-center col-lg-auto text-lg-left mb-3">
                   <h3 className="title">Food Fusion</h3>
                   <p className="sub-title">Restaurants Reservation Platform</p>
                 </div>
               </div>
 
-              <div className='mt-4 portofolio-item-content'>
+              <div className='mt-lg-4 portofolio-item-content'>
                 <div className="portofolio-item-description">
                   <p>
                     FoodFusion is a web platform meant to ease the restaurants reservations.
                   </p>
                   <p>
-                    From the user's perspective anyone can add a reservation to a specific restaurant, chose a prefered table, and even add a preorder. 
+                    From the user's perspective anyone can add a reservation to a specific restaurant, chose a prefered table, and even add a preorder.
                     At the end, the user can even pay using the app.
                   </p>
                   <p>
@@ -120,7 +120,7 @@ export default function PortofolioSection() {
                 </div>
               </div>
             </div>
-            <div class="col-lg-8 pl-lg-5">
+            <div class="col-lg-8 order-2 pl-lg-5">
               <div className='contribution-bar mt-4'>
                 <div className="color-bar"></div>
                 <ul>
@@ -159,8 +159,7 @@ export default function PortofolioSection() {
         </div>
         <div class="container-fluid mt-5 portofolio-item">
           <div className="row">
-            
-          <div class="col-lg-8 pr-lg-5">
+            <div class="col-lg-8 order-2 pr-lg-5">
               <div className='contribution-bar mt-4'>
                 <div className="color-bar"></div>
                 <ul>
@@ -178,7 +177,6 @@ export default function PortofolioSection() {
                   </li>
                 </ul>
               </div>
-
               <div className="mt-4 portofolio-item-image-wrapper">
                 <Carousel containerClass="carousel-container" responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={4000}>
                   <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_locations.png")}></img></div>
@@ -190,27 +188,28 @@ export default function PortofolioSection() {
                 </Carousel>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div className="mt-4" style={{ display: 'flex', minWidth: '500px', alignItems: 'center' }}>
-                <div >
-                  <div className="portofolio-item-logo-wrapper">
+
+            <div class="col-lg-4 order-1 order-lg-3">              
+              <div className="row mt-4">
+                <div className="col-12 text-center col-lg-auto text-lg-left mb-3">
+                  <div className="d-inline-block p-2 portofolio-item-logo-wrapper">
                     <img alt="Moons Logo" className="portofolio-item-logo" src={require("../../assests/images/moons_icon.png")}></img>
                   </div>
                 </div>
-                <div className="title-wrapper">
+                <div className="col-12 text-center col-lg-auto text-lg-left mb-3">
                   <h3 className="title">Moons</h3>
                   <p className="sub-title">Wedding Planning and Providers</p>
                 </div>
               </div>
 
-              <div className='mt-4 portofolio-item-content'>
+              <div className='mt-lg-4 portofolio-item-content'>
                 <div className="portofolio-item-description">
                   <p>Moons is an app that is meant to help you plan and manage your wedding.</p>
-                  <p>The app has two main modules: <strong>The Wedding Planner</strong> and <strong>The Providers Market</strong>. 
-                    First one is aiming to help you plan all the wedding details (budget, guests, appointments). 
+                  <p>The app has two main modules: <strong>The Wedding Planner</strong> and <strong>The Providers Market</strong>.
+                    First one is aiming to help you plan all the wedding details (budget, guests, appointments).
                     The second one is facilitating the engagement between you and the services providers like restaurants, music bands etc.</p>
                   <p>
-                    This app act as a helping hand for the ones struggling to plan their wedding to the very detail. 
+                    This app act as a helping hand for the ones struggling to plan their wedding to the very detail.
                     At the same time, from the provider's perspecive, this app is an excellent marketplace where anyone can show off their services and availability.
                   </p>
                   <SoftwareSkill skills={moonsSkills} />
