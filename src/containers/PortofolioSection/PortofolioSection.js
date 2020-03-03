@@ -107,14 +107,15 @@ export default function PortofolioSection() {
                     FoodFusion is a web platform meant to ease the restaurants reservations.
                   </p>
                   <p>
-                    From the user's perspective anyone can add a reservation to a specific restaurant, chose a prefered table, and even add a preorder.
-                    At the end, the user can even pay using the app.
+                    From the user's perspective anyone can add a reservation to a specific restaurant, choose a prefered table and even add a preorder.
+                    At the end, the user has the possibility to pay using the app.
                   </p>
                   <p>
-                    From the restaurant's point of view, you can watch and manage all the reservations. As a restaurant manager, you are also free to add employees, that can also manage the restaurant for you.
+                    From the restaurant's point of view, the employees manage the reservations, availability and the restaurant's public page. 
+                    The manager of the restaurant is free to add employees that can manage the restaurant on his behalf.
                   </p>
                   <p>
-                    A side functionality of the app is the Hotel Booking platform.
+                    An extra functionality of the app is the Hotel Booking platform.
                   </p>
                   <SoftwareSkill skills={foodfusionSkills} />
                 </div>
@@ -204,13 +205,15 @@ export default function PortofolioSection() {
 
               <div className='mt-lg-4 portofolio-item-content'>
                 <div className="portofolio-item-description">
-                  <p>Moons is an app that is meant to help you plan and manage your wedding.</p>
-                  <p>The app has two main modules: <strong>The Wedding Planner</strong> and <strong>The Providers Market</strong>.
-                    First one is aiming to help you plan all the wedding details (budget, guests, appointments).
-                    The second one is facilitating the engagement between you and the services providers like restaurants, music bands etc.</p>
+                  <p>Moons is an app that improves the process of wedding planning.</p>
+                  <p>The app has two main modules:</p>
                   <p>
-                    This app act as a helping hand for the ones struggling to plan their wedding to the very detail.
-                    At the same time, from the provider's perspecive, this app is an excellent marketplace where anyone can show off their services and availability.
+                    <strong>The Wedding Planner</strong> deals with planning all the wedding details such as the budget, guests and appointments. <br />
+
+                    <strong>The Providers Market</strong> facilitates the engagement between the users and the services providers (restaurants, photographers, music bands etc).</p>
+                  <p>
+                    This app acts as a helping hand for the ones that are striving to plan their wedding to the very detail.
+                    At the same time, from the providers' perspecive, this app is an excellent marketplace where anyone can show off their services, prices and availability.
                   </p>
                   <SoftwareSkill skills={moonsSkills} />
                 </div>

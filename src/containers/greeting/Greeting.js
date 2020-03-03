@@ -13,7 +13,7 @@ export default function Greeting() {
             <div className="p-2">
               <h1 className="greeting-text">I'm <span className="text-primary">Alex Boicu</span></h1>
               <p className="greeting-text-p subTitle">
-                A passionate Full Stack <span className="text-primary font-weight-bold">Software Developer</span> 🚀 with the Design in mind, having a broad experience of building Complex Web and Mobile Applications
+                A passionate Full Stack <span className="text-primary font-weight-bold">Software Developer</span> with the <span className="text-primary font-weight-bold">Design in Mind</span> 🚀 having a broad experience of building amazing Web and Mobile Applications
               </p>
               <SocialMedia />
               <div className="button-greeting-div">

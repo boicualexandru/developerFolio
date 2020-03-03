@@ -18,10 +18,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   /* Your Skills Section  */
-  title: "How will I help",
-  subTitle: "I CREATE AMAZING EXPERINCES FOR YOU AND YOUR CLIENTS",
+  title: "What I deliver",
+  subTitle: "I CREATE AMAZING EXPERIENCES FOR YOU AND YOUR CLIENTS",
   skills: [
-    "⚡ Developing highly interactive Front end / User Interfaces for your web and mobile applications",
+    "⚡ Developing highly interactive  User Interfaces for your web and mobile applications",
     "⚡ Creating scalable Backend Functionalities using breaking new technologies",
     "⚡ Continuously adapting the Design to your needs",
     "⚡ Cost-Effective Deploying your App on Cloud Services like AWS / Firebase / Azure / Google Cloud"
