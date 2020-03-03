@@ -82,11 +82,11 @@ export default function PortofolioSection() {
   };
 
   return (
-    <div className="main" id="portofolio">
+    <div className="container-fluid px-lg-5 mt-5" id="portofolio">
       <div className="portofolio-wrapper">
         <h3 className="portofolio-title">{portofolioInfo.title}</h3>
 
-        <div class="container-fluid mt-5 portofolio-item">
+        <div class="mt-5 portofolio-item">
           <div className="row">
             <div class="col-lg-4 order-1">              
               <div className="row mt-4">
@@ -157,7 +157,7 @@ export default function PortofolioSection() {
             </div>
           </div>
         </div>
-        <div class="container-fluid mt-5 portofolio-item">
+        <div class="mt-5 portofolio-item">
           <div className="row">
             <div class="col-lg-8 order-2 pr-lg-5">
               <div className='contribution-bar mt-4'>

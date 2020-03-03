@@ -5,7 +5,7 @@ import { skillsSection } from "../../portfolio";
 
 export default function Skills() {
   return (
-    <div className="container-fluid px-5 mt-5" id="skills">
+    <div className="container-fluid px-lg-5 mt-5" id="skills">
       <div className="row">
         <div className="col-lg-6 order-2 mb-4 pl-lg-4">
           <h1 className="skills-heading">{skillsSection.title} </h1>
