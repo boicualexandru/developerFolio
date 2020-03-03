@@ -6,6 +6,10 @@ $font-size-base: 1.2rem;
 $font-family-sans-serif: "Montserrat", sans-serif;
 // $line-height-base: 1.2px;
 
+$spacers: (
+  6: (1rem * 6)
+);
+
 @import "node_modules/bootstrap/scss/bootstrap";
 
 a:hover {

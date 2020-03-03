@@ -82,11 +82,11 @@ export default function PortofolioSection() {
   };
 
   return (
-    <div className="container-fluid px-lg-5 mt-5" id="portofolio">
+    <div className="container-fluid px-lg-6 mt-5" id="portofolio">
       <div className="portofolio-wrapper">
-        <h3 className="portofolio-title">{portofolioInfo.title}</h3>
+        <h3 className="portofolio-title mb-2 mb-lg-4">{portofolioInfo.title}</h3>
 
-        <div class="mt-5 portofolio-item">
+        <div class="mb-5 portofolio-item">
           <div className="row">
             <div class="col-lg-4 order-1">              
               <div className="row mt-4">
@@ -130,7 +130,7 @@ export default function PortofolioSection() {
                   </li>
                   <li>
                     <span className="fa fa-palette"></span>
-                    <p>Design / UX</p>
+                    <p>Design & UX</p>
                   </li>
                   <li>
                     <span className="fa fa-cog"></span>
@@ -138,11 +138,11 @@ export default function PortofolioSection() {
                   </li>
                   <li>
                     <span className="fa fa-rocket"></span>
-                    <p>User Interface</p>
+                    <p>UI</p>
                   </li>
                   <li>
                     <span className="fa fa-fire"></span>
-                    <p>Deployment</p>
+                    <p>Deploy</p>
                   </li>
                 </ul>
               </div>
@@ -157,7 +157,7 @@ export default function PortofolioSection() {
             </div>
           </div>
         </div>
-        <div class="mt-5 portofolio-item">
+        <div class="mb-5 portofolio-item">
           <div className="row">
             <div class="col-lg-8 order-2 pr-lg-5">
               <div className='contribution-bar mt-4'>
@@ -169,11 +169,11 @@ export default function PortofolioSection() {
                   </li>
                   <li>
                     <span className="fa fa-palette"></span>
-                    <p>Design / UX</p>
+                    <p>Design & UX</p>
                   </li>
                   <li>
                     <span className="fa fa-rocket"></span>
-                    <p>User Interface</p>
+                    <p>UI</p>
                   </li>
                 </ul>
               </div>
