@@ -18,7 +18,7 @@ export default function Skills() {
           </div>
         </div>
         <div className="col-lg-6 order-3 order-lg-1 mb-4 text-center">
-          <img className="w-75" alt="Alex" src={require("../../assests/images/profileBlob.png")}></img>
+          <img className="w-75" alt="Alex" src={require("../../assests/images/profileBlob.jpg")}></img>
         </div>
       </div>
     </div>

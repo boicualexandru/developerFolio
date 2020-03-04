@@ -22,7 +22,7 @@ export default function Greeting() {
               </div>
             </div>
           </div>
-          <div className="col-lg-7 hero-image" style={{backgroundImage: 'url(' + require("../../assests/images/heroImage.png") + ')'}}></div>
+          <div className="col-lg-7 hero-image" style={{backgroundImage: 'url(' + require("../../assests/images/heroImage-min.jpg") + ')'}}></div>
         </div>
       </div>
     </div>

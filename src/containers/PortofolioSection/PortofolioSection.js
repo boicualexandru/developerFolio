@@ -92,7 +92,7 @@ export default function PortofolioSection() {
               <div className="row mt-4">
                 <div className="col-12 text-center col-lg-auto text-lg-left mb-3">
                   <div className="d-inline-block p-2 portofolio-item-logo-wrapper">
-                    <img alt="Food Fusion Logo" className="portofolio-item-logo" src="https://raw.githubusercontent.com/boicualexandru/Food-Fusion-FE/38b1d9c45807287772a95f9781c11d538136ec01/src/assets/img/FoodFusionLogoSmall.png"></img>
+                    <img alt="Food Fusion Logo" className="portofolio-item-logo" src={require("../../assests/images/foodfusion/icon.jpg")}></img>
                   </div>
                 </div>
                 <div className="col-12 text-center col-lg-auto text-lg-left mb-3">
@@ -149,10 +149,10 @@ export default function PortofolioSection() {
               </div>
               <div className="mt-4 portofolio-item-image-wrapper">
                 <Carousel containerClass="carousel-container" responsive={responsiveFull} infinite={true} autoPlay={true} autoPlaySpeed={4000}>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/browser_mockup_restaurants.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/MacBookPro_iphone_restaurant_SMALL.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/browser_phone_login.png")}></img></div>
-                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/browser_phone_hotel.png")}></img></div>
+                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/foodfusion/restaurants-min.jpg")}></img></div>
+                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/foodfusion/restaurant-min.jpg")}></img></div>
+                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/foodfusion/login-min.jpg")}></img></div>
+                  <div><img alt="Food Fusion" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/foodfusion/hotel-min.jpg")}></img></div>
                 </Carousel>
               </div>
             </div>
@@ -180,12 +180,12 @@ export default function PortofolioSection() {
               </div>
               <div className="mt-4 portofolio-item-image-wrapper">
                 <Carousel containerClass="carousel-container" responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={4000}>
-                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_locations.png")}></img></div>
-                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_rooms.png")}></img></div>
-                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_room_modal.png")}></img></div>
-                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_menus.png")}></img></div>
-                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_menu_modal.png")}></img></div>
-                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons_included_services.png")}></img></div>
+                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons/locations-min.jpg")}></img></div>
+                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons/rooms-min.jpg")}></img></div>
+                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons/room_modal-min.jpg")}></img></div>
+                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons/menus-min.jpg")}></img></div>
+                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons/menu_modal-min.jpg")}></img></div>
+                  <div><img alt="Moons" className="px-3 portofolio-item-image" draggable="false" src={require("../../assests/images/moons/included_services-min.jpg")}></img></div>
                 </Carousel>
               </div>
             </div>
@@ -194,7 +194,7 @@ export default function PortofolioSection() {
               <div className="row mt-4">
                 <div className="col-12 text-center col-lg-auto text-lg-left mb-3">
                   <div className="d-inline-block p-2 portofolio-item-logo-wrapper">
-                    <img alt="Moons Logo" className="portofolio-item-logo" src={require("../../assests/images/moons_icon.png")}></img>
+                    <img alt="Moons Logo" className="portofolio-item-logo" src={require("../../assests/images/moons/icon.jpg")}></img>
                   </div>
                 </div>
                 <div className="col-12 text-center col-lg-auto text-lg-left mb-3">
