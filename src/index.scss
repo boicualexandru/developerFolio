@@ -5,6 +5,7 @@
 @font-face {
   font-family: 'Montserrat';
   src: local('Montserrat'), url('./assests/fonts/Montserrat-Regular.ttf') format('woff');
+  font-display: swap;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
