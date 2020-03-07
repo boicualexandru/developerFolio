@@ -38,6 +38,10 @@
   margin-right: 0.75rem;
 }
 
+.repo-left-stat span p {
+  margin: 0;
+}
+
 .repo-name-div {
   display: flex;
   align-items: center;
