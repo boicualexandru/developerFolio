@@ -84,7 +84,7 @@ export default function PortofolioSection() {
   return (
     <div className="container-fluid px-lg-6 mt-5" id="portofolio">
       <div className="portofolio-wrapper">
-        <h3 className="portofolio-title mb-2 mb-lg-4">{portofolioInfo.title}</h3>
+        <h2 className="portofolio-title mb-2 mb-lg-4">{portofolioInfo.title}</h2>
 
         <div class="mb-5 portofolio-item">
           <div className="row">

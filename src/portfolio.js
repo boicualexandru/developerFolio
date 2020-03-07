@@ -18,7 +18,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   /* Your Skills Section  */
-  title: "What I deliver",
+  title: "What I Deliver",
   subTitle: "I CREATE AMAZING EXPERIENCES FOR YOU AND YOUR CLIENTS",
   skills: [
     "⚡ Developing highly interactive  User Interfaces for your web and mobile applications",

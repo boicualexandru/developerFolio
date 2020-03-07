@@ -14,20 +14,22 @@ function Header() {
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon"></span>
         </label>
-        <ul className="menu">
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#portofolio">Portofolio</a>
-          </li>
-          <li>
-            <a href="#opensource">Open Source</a>
-          </li>
-          <li>
-            <a href="#contact">Contact Me</a>
-          </li>
-        </ul>
+        <nav className="menu">
+          <ul>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#portofolio">Portofolio</a>
+            </li>
+            <li>
+              <a href="#opensource">Open Source</a>
+            </li>
+            <li>
+              <a href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
       </header>
     </div>
   );

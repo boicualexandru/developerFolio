@@ -1,3 +1,7 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
 .social-media-div {
   font-size: 2em;
 }
@@ -59,6 +63,20 @@
 }
 
 /* Media Query */
+
+@include media-breakpoint-down(md) {
+  .social-media-div {
+    font-size: 4em;
+  }
+
+  .icon-button i {
+    font-size: 1.7rem;
+    height: 4rem;
+    line-height: 4rem;
+    width: 4rem;
+  }
+}
+
 @media (max-width: 768px) {
   .social-media-div {
     text-align: center;
